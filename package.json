@@ -1,0 +1,19 @@
+{
+  "name": "cyp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "smoke:open:QA": "cross-env RUN_AGAINST=QA node cypress/project_det/open.js ",
+    "smoke:open:dev": "cross-env RUN_AGAINST=dev node cypress/project_det/open.js"
+  },
+  "author": "ak",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^9.5.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "cypress-iframe": "^1.0.1"
+  }
+}
